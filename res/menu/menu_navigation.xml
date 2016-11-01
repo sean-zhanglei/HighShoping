@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+	 android:id="@+id/inRegister0"
+     android:title="@string/Register0"
+     >   
+	</item>
+	<item
+	 android:id="@+id/inRegister1"
+     android:title="@string/Register1"
+     >   
+	</item>
+	<item
+	 android:id="@+id/inRegister2"
+     android:title="@string/Register2"
+     >   
+	</item>
+	<item
+	 android:id="@+id/inRegister3"
+     android:title="@string/Register3"
+     >   
+	</item>
+	<item
+	 android:id="@+id/inRegister4"
+     android:title="@string/Register4"
+	>   
+	</item>
+</menu>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">帮帮团</string>
+	<string name="wellcome">欢迎使用！</string>
+	<string name="username">用户名：</string>
+	<string name="userpass">密码：</string>
+	<string name="login">登录</string>
+	<string name="cancel1">取消</string>
+	<string name="zhuce">注册</string>
+	<string name="email">邮箱:</string>
+	<string name="phonenumber">电话号码:</string>
+	<string name="input">input must!</string>
+	<string name="share1">分享</string>
+	<string name="commont1">评论</string>
+	<string name="collect1">收藏</string>
+	<string name="setting">设置</string>
+	<string name="Register0">个人中心</string>
+	<string name="Register1">选项2</string>
+	<string name="Register2">选项3</string>
+	<string name="Register3">选项4</string>
+	<string name="Register4">选项5</string>
+	<string name="drawer_open">drawer_open</string>
+	<string name="drawer_close">drawer_close</string>
+	
+	<string 
+	    name="exit">退出</string>
+	<string 
+	    name="unlogin">注销</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="helperlist" >
+        <item >@string/app_name</item>
+        <item >@string/login</item>
+    </string-array>
+</resources>

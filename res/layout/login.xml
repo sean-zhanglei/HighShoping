@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+	<TableLayout 
+		android:layout_width="300dp"
+		android:layout_height="match_parent"
+		android:layout_gravity="center_horizontal"
+		android:stretchColumns="1">
+	
+	<ImageView  
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:scaleType="fitCenter"
+		android:src="@drawable/logo"
+		android:contentDescription="@string/app_name"/>
+	<TextView
+		android:text="@string/wellcome"
+		android:id="@+id/TextView"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:padding="1dp"/>	
+	<!-- 输入用户名的行 -->
+	<TableRow>
+	<TextView
+		android:text="@string/username"
+		android:textColor="@android:color/black"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+	<EditText
+		android:id="@+id/userEditText"
+		android:textColor="@android:color/black"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:inputType="text"/>
+	</TableRow>
+	<!-- 输入密码的行 -->
+	<TableRow>
+	<TextView
+		android:text="@string/userpass"
+		android:textColor="@android:color/black"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+	<EditText
+		android:id="@+id/pwdEditText"
+		android:textColor="@android:color/black"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:inputType="textPassword"/>
+	</TableRow>
+		<!-- 定义登录、取消按钮的行 -->
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="center">
+		<Button
+			android:id="@+id/bnLogin"
+			android:text="@string/login"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+		<Button
+			android:id="@+id/bnCancel"
+			android:text="@string/cancel1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>	
+		</LinearLayout>
+	</TableLayout>
+</LinearLayout>
