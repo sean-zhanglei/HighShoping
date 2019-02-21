@@ -1,2 +1,2 @@
-# Sean-s-bars
-it's my repository of resources
+# HighShopping
+一款购物软件
